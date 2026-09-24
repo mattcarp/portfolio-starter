@@ -2,23 +2,27 @@
 
 Hey Andrew,
 
-This is your portfolio site, and from here on it's yours. Uncle Matt had it built for you as a starting point. The look is a game-dev terminal: a phosphor-green HUD, matrix rain, a "Press start" button and a "Continue?" countdown at the bottom. The bones are solid. What it needs now is **your** work: real titles, real stills, real video.
+Uncle Matt had fun building this and wanted you to have it. Think of it as a sketch, a toy and a head start. It is not a replacement for anything. Use all of it, strip it for parts, or ignore it completely. It's yours either way.
 
-You've shipped on GTA VI, so this will be easy for you. It's one HTML file with no framework, no build step and no website builder. You own every pixel.
+The look is a game-dev terminal: a phosphor-green HUD, matrix rain, a "Press start" button and a "Continue?" countdown at the bottom. It's one HTML file with no framework, no build step and no website builder, so you have full control. Anyone who's shipped on a game like yours will find this easy. What it's missing is **your** work: real titles, real stills, real video.
 
-Right now it lives at **https://mattcarpenter.com/michael-carpenter/**. Once you've set it up (below), it'll live at your own address.
+There's a preview at **https://mattcarpenter.com/michael-carpenter/**. If you decide to use it, the steps below put it at your own address.
 
 ---
 
-## 0. Taking it over (about 10 minutes, once)
+## 0. Making it yours (about 5 minutes, once)
 
-### a. Get the repo
+### a. Get your own copy
 
-Uncle Matt will transfer this repo to your GitHub account. You'll get an email from GitHub, and you just click **Accept**. No GitHub account yet? Make one at https://github.com/signup. It's free.
+1. Sign in to GitHub. No account yet? Make one at https://github.com/signup. It's free.
+2. On this repo's page, click the green **Use this template** button, then **Create a new repository**.
+3. For the repository name, type exactly `YOUR-USERNAME.github.io`, using your real GitHub username. Set it to **Public**, then click **Create repository**.
 
-### b. Make it public
+You now own a clean copy with no history attached to anyone else. Uncle Matt's copy doesn't matter any more.
 
-GitHub Pages hosts sites for free from **public** repos. Go to **Settings → General**, scroll to the **Danger Zone**, click **Change visibility**, and choose **Public**. Nothing in here is secret.
+### b. Why public?
+
+GitHub Pages hosts sites for free from **public** repos. Nothing in here is secret.
 
 ### c. Pick your URL
 
@@ -26,10 +30,10 @@ You have two good options:
 
 | Option | Your site's address | How |
 |---|---|---|
-| **Free, clean** | `https://YOUR-USERNAME.github.io/` | Rename the repo to exactly `YOUR-USERNAME.github.io` (**Settings → General → Repository name**). |
-| **Your own domain** | `https://michaelcarpenter.xyz` (whatever you buy) | Do the rename above, then follow section 8. A domain costs roughly $10–20 a year. |
+| **Free, clean** | `https://YOUR-USERNAME.github.io/` | Already done if you named the repo `YOUR-USERNAME.github.io` in step a. |
+| **Your own domain** | `https://michaelcarpenter.xyz` (whatever you buy) | Follow section 8. A domain costs roughly $10–20 a year. |
 
-If you skip the rename, the site still works, just at the uglier `https://YOUR-USERNAME.github.io/mc-michael-carpenter-site/`.
+If you gave the repo a different name, the site still works, just at the uglier `https://YOUR-USERNAME.github.io/REPO-NAME/`. You can rename it any time under **Settings → General**.
 
 ### d. Turn on GitHub Pages
 
@@ -42,11 +46,11 @@ From then on, **every push to `main` updates the live site automatically**, usua
 
 ### e. Tell Uncle Matt the new URL
 
-He'll point `mattcarpenter.com/michael-carpenter/` at your site so old links keep working.
+He'll point the preview at `mattcarpenter.com/michael-carpenter/` to your site, or take it down, whichever you prefer.
 
-### f. About the Webflow site
+### f. Your Webflow site
 
-The site at `michael-carpenter-portfolio.webflow.io` is separate. Nothing here depends on it, so keep it or cancel it as you like.
+This doesn't touch your Webflow site. Run both, borrow ideas from one for the other, or pick one. Your call.
 
 ---
 
@@ -219,7 +223,7 @@ The page currently tells search engines to stay away, because it's full of place
 
 ## Checklist
 
-- [ ] Accept the transfer, make the repo public, rename it to `YOUR-USERNAME.github.io`
+- [ ] **Use this template** → public repo named `YOUR-USERNAME.github.io`
 - [ ] Turn on GitHub Pages and send Uncle Matt the URL
 - [ ] Replace every `[bracket]` (search for `[`)
 - [ ] Real poster frames in `img/`, and the real reel in the banner
