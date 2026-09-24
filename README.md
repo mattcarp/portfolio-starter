@@ -2,7 +2,7 @@
 
 Portfolio for Michael Carpenter: game design, film and television.
 
-Live at https://mattcarpenter.com/michaelcarpenter/ (served from `mattcarp/mattcarpenter-site`, folder `michaelcarpenter/`).
+Live at https://mattcarpenter.com/michael-carpenter/ (served from `mattcarp/mattcarpenter-site`, folder `michael-carpenter/`; `/michaelcarpenter/` redirects there).
 
 Single static page, no build step. Open `index.html` in a browser.
 
